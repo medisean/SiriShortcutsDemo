@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C46D2FBF21BF939000300F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2FBE21BF939000300F90 /* AppDelegate.swift */; };
-		C46D2FC121BF939000300F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2FC021BF939000300F90 /* ViewController.swift */; };
 		C46D2FC421BF939000300F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46D2FC221BF939000300F90 /* Main.storyboard */; };
 		C46D2FC621BF939100300F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46D2FC521BF939100300F90 /* Assets.xcassets */; };
 		C46D2FC921BF939100300F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46D2FC721BF939100300F90 /* LaunchScreen.storyboard */; };
 		C46D2FD421BF939100300F90 /* SiriShortcutsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2FD321BF939100300F90 /* SiriShortcutsDemoTests.swift */; };
 		C46D2FDF21BF939100300F90 /* SiriShortcutsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2FDE21BF939100300F90 /* SiriShortcutsDemoUITests.swift */; };
+		C46D2FED21BF943600300F90 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2FEC21BF943600300F90 /* RootViewController.swift */; };
+		C46D2FF021BF956500300F90 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C46D2FEF21BF956500300F90 /* Intents.intentdefinition */; };
+		C46D2FF221BF968F00300F90 /* ActityModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D2FF121BF968F00300F90 /* ActityModeViewController.swift */; };
+		C46D2FF521BFA03400300F90 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46D2FF421BFA03300300F90 /* MobileCoreServices.framework */; };
+		C46D2FF721BFA03B00300F90 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46D2FF621BFA03A00300F90 /* CoreSpotlight.framework */; };
+		C46D2FFA21BFA17200300F90 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46D2FF921BFA17200300F90 /* Intents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		C46D2FBB21BF939000300F90 /* SiriShortcutsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriShortcutsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46D2FBE21BF939000300F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C46D2FC021BF939000300F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C46D2FC321BF939000300F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C46D2FC521BF939100300F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C46D2FC821BF939100300F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,13 @@
 		C46D2FDA21BF939100300F90 /* SiriShortcutsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiriShortcutsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46D2FDE21BF939100300F90 /* SiriShortcutsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriShortcutsDemoUITests.swift; sourceTree = "<group>"; };
 		C46D2FE021BF939100300F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46D2FEC21BF943600300F90 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		C46D2FEF21BF956500300F90 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		C46D2FF121BF968F00300F90 /* ActityModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActityModeViewController.swift; sourceTree = "<group>"; };
+		C46D2FF421BFA03300300F90 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C46D2FF621BFA03A00300F90 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		C46D2FF821BFA15300300F90 /* SiriShortcutsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriShortcutsDemo.entitlements; sourceTree = "<group>"; };
+		C46D2FF921BFA17200300F90 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46D2FFA21BFA17200300F90 /* Intents.framework in Frameworks */,
+				C46D2FF721BFA03B00300F90 /* CoreSpotlight.framework in Frameworks */,
+				C46D2FF521BFA03400300F90 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 				C46D2FD221BF939100300F90 /* SiriShortcutsDemoTests */,
 				C46D2FDD21BF939100300F90 /* SiriShortcutsDemoUITests */,
 				C46D2FBC21BF939000300F90 /* Products */,
+				C46D2FF321BFA03300300F90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +112,14 @@
 		C46D2FBD21BF939000300F90 /* SiriShortcutsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C46D2FF821BFA15300300F90 /* SiriShortcutsDemo.entitlements */,
+				C46D2FEE21BF943C00300F90 /* ViewController */,
 				C46D2FBE21BF939000300F90 /* AppDelegate.swift */,
-				C46D2FC021BF939000300F90 /* ViewController.swift */,
 				C46D2FC221BF939000300F90 /* Main.storyboard */,
 				C46D2FC521BF939100300F90 /* Assets.xcassets */,
 				C46D2FC721BF939100300F90 /* LaunchScreen.storyboard */,
 				C46D2FCA21BF939100300F90 /* Info.plist */,
+				C46D2FEF21BF956500300F90 /* Intents.intentdefinition */,
 			);
 			path = SiriShortcutsDemo;
 			sourceTree = "<group>";
@@ -123,6 +140,25 @@
 				C46D2FE021BF939100300F90 /* Info.plist */,
 			);
 			path = SiriShortcutsDemoUITests;
+			sourceTree = "<group>";
+		};
+		C46D2FEE21BF943C00300F90 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C46D2FEC21BF943600300F90 /* RootViewController.swift */,
+				C46D2FF121BF968F00300F90 /* ActityModeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C46D2FF321BFA03300300F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C46D2FF921BFA17200300F90 /* Intents.framework */,
+				C46D2FF621BFA03A00300F90 /* CoreSpotlight.framework */,
+				C46D2FF421BFA03300300F90 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +229,11 @@
 				TargetAttributes = {
 					C46D2FBA21BF939000300F90 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 					C46D2FCE21BF939100300F90 = {
 						CreatedOnToolsVersion = 10.1;
@@ -256,8 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C46D2FC121BF939000300F90 /* ViewController.swift in Sources */,
+				C46D2FF021BF956500300F90 /* Intents.intentdefinition in Sources */,
 				C46D2FBF21BF939000300F90 /* AppDelegate.swift in Sources */,
+				C46D2FED21BF943600300F90 /* RootViewController.swift in Sources */,
+				C46D2FF221BF968F00300F90 /* ActityModeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiriShortcutsDemo/SiriShortcutsDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FA222CQ7R2;
 				INFOPLIST_FILE = SiriShortcutsDemo/Info.plist;
@@ -450,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiriShortcutsDemo/SiriShortcutsDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FA222CQ7R2;
 				INFOPLIST_FILE = SiriShortcutsDemo/Info.plist;
