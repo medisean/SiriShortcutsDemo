@@ -24,7 +24,7 @@
 			<key>INIntentLastParameterTag</key>
 			<integer>0</integer>
 			<key>INIntentName</key>
-			<string>Intent</string>
+			<string>ActivityDemo</string>
 			<key>INIntentParameterCombinations</key>
 			<dict>
 				<key></key>
@@ -87,6 +87,80 @@
 			<false/>
 			<key>INIntentVerb</key>
 			<string>Go</string>
+		</dict>
+		<dict>
+			<key>INIntentCategory</key>
+			<string>request</string>
+			<key>INIntentDescription</key>
+			<string>Hello</string>
+			<key>INIntentDescriptionID</key>
+			<string>TJSAHy</string>
+			<key>INIntentLastParameterTag</key>
+			<integer>0</integer>
+			<key>INIntentName</key>
+			<string>IntentDemo</string>
+			<key>INIntentParameterCombinations</key>
+			<dict>
+				<key></key>
+				<dict>
+					<key>INIntentParameterCombinationIsPrimary</key>
+					<true/>
+					<key>INIntentParameterCombinationSubtitle</key>
+					<string></string>
+					<key>INIntentParameterCombinationSubtitleID</key>
+					<string>GUobYZ</string>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string></string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>zm5LZW</string>
+				</dict>
+			</dict>
+			<key>INIntentParameters</key>
+			<array/>
+			<key>INIntentResponse</key>
+			<dict>
+				<key>INIntentResponseCodes</key>
+				<array>
+					<dict>
+						<key>INIntentResponseCodeFormatString</key>
+						<string></string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>8aedB6</string>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeFormatString</key>
+						<string></string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>w55Ohc</string>
+						<key>INIntentResponseCodeName</key>
+						<string>success</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+				</array>
+				<key>INIntentResponseLastParameterTag</key>
+				<integer>0</integer>
+				<key>INIntentResponseParameters</key>
+				<array/>
+			</dict>
+			<key>INIntentRestrictions</key>
+			<integer>0</integer>
+			<key>INIntentTitle</key>
+			<string>Hello</string>
+			<key>INIntentTitleID</key>
+			<string>qBIKeZ</string>
+			<key>INIntentType</key>
+			<string>Custom</string>
+			<key>INIntentUserConfirmationRequired</key>
+			<false/>
+			<key>INIntentVerb</key>
+			<string>Request</string>
 		</dict>
 	</array>
 </dict>

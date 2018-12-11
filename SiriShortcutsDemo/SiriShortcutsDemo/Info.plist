@@ -22,6 +22,7 @@
 	<true/>
 	<key>NSUserActivityTypes</key>
 	<array>
+		<string>IntentDemoIntent</string>
 		<string>com.zlm.goProject.myproject</string>
 	</array>
 	<key>UILaunchStoryboardName</key>

@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import MobileCoreServices
-import CoreSpotlight
+import Intents
+import IntentsUI
 
 class ActityModeViewController: UIViewController {
     
@@ -24,6 +24,7 @@ class ActityModeViewController: UIViewController {
     /// Step 4: In app, add methods like below
     /// Step 5: in Setting - Siri & Search -add myproject and add a voice, done
     /// then you can say hi siri, myproject and siri will help you to enter app
+    /// Step 5: or in code present INUIAddVoiceShortcutViewController to add voice
     
     @IBAction func addButtonPressed(_ sender: Any) {
         let activity = NSUserActivity(activityType: "com.zlm.goProject.myproject") // 1
@@ -33,5 +34,20 @@ class ActityModeViewController: UIViewController {
         activity.isEligibleForPrediction = true // 5
         view.userActivity = activity // 6
         activity.becomeCurrent() // 7
+        
+        let shortCuts = INShortcut(userActivity: activity)
+        let viewController = INUIAddVoiceShortcutViewController(shortcut: shortCuts)
+        viewController.delegate = self
+        present(viewController, animated: true, completion: nil)
+    }
+}
+
+extension ActityModeViewController: INUIAddVoiceShortcutViewControllerDelegate {
+    func addVoiceShortcutViewController(_ controller: INUIAddVoiceShortcutViewController, didFinishWith voiceShortcut: INVoiceShortcut?, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+    func addVoiceShortcutViewControllerDidCancel(_ controller: INUIAddVoiceShortcutViewController) {
+        controller.dismiss(animated: true, completion: nil)
     }
 }
