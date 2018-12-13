@@ -90,7 +90,7 @@
 		</dict>
 		<dict>
 			<key>INIntentCategory</key>
-			<string>request</string>
+			<string>generic</string>
 			<key>INIntentDescription</key>
 			<string>Hello</string>
 			<key>INIntentDescriptionID</key>
@@ -106,13 +106,13 @@
 					<key>INIntentParameterCombinationIsPrimary</key>
 					<true/>
 					<key>INIntentParameterCombinationSubtitle</key>
-					<string></string>
+					<string>nihao</string>
 					<key>INIntentParameterCombinationSubtitleID</key>
 					<string>GUobYZ</string>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string></string>
+					<string>Hello</string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>zm5LZW</string>
 				</dict>
@@ -160,7 +160,7 @@
 			<key>INIntentUserConfirmationRequired</key>
 			<false/>
 			<key>INIntentVerb</key>
-			<string>Request</string>
+			<string>Do</string>
 		</dict>
 	</array>
 </dict>

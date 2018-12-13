@@ -26,6 +26,7 @@
 		C46D301221BFAB9800300F90 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46D301021BFAB9800300F90 /* MainInterface.storyboard */; };
 		C46D301621BFAB9800300F90 /* EventUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C46D300A21BFAB9800300F90 /* EventUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C46D301921BFAB9800300F90 /* Event.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C46D300121BFAB9800300F90 /* Event.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C477AF5321C25D7200582A3D /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C477AF5221C25D7200582A3D /* DisplayViewController.swift */; };
 		C4E764E221C2395B0094F009 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C46D2FEF21BF956500300F90 /* Intents.intentdefinition */; };
 		C4E764E321C2395C0094F009 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C46D2FEF21BF956500300F90 /* Intents.intentdefinition */; };
 		C4E764E521C23FDC0094F009 /* IntentDemoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E764E421C23FDC0094F009 /* IntentDemoHandler.swift */; };
@@ -106,6 +107,7 @@
 		C46D300E21BFAB9800300F90 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		C46D301121BFAB9800300F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		C46D301321BFAB9800300F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C477AF5221C25D7200582A3D /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 		C4E764E421C23FDC0094F009 /* IntentDemoHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentDemoHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				C46D300E21BFAB9800300F90 /* IntentViewController.swift */,
+				C477AF5221C25D7200582A3D /* DisplayViewController.swift */,
 				C46D301021BFAB9800300F90 /* MainInterface.storyboard */,
 				C46D301321BFAB9800300F90 /* Info.plist */,
 			);
@@ -486,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4E764E321C2395C0094F009 /* Intents.intentdefinition in Sources */,
+				C477AF5321C25D7200582A3D /* DisplayViewController.swift in Sources */,
 				C46D300F21BFAB9800300F90 /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
