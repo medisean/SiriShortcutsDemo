@@ -12,9 +12,4 @@ class IntentDemoHandler: NSObject, IntentDemoIntentHandling {
     func handle(intent: IntentDemoIntent, completion: @escaping (IntentDemoIntentResponse) -> Void) {
         completion(IntentDemoIntentResponse(code: .success, userActivity: nil))
     }
-    
-//    func confirm(intent: IntentDemoIntent, completion: @escaping (IntentDemoIntentResponse) -> Void) {
-//        completion(IntentDemoIntentResponse(code: .success, userActivity: nil))
-////        completion(IntentDemoIntentResponse(code: .failure, userActivity: nil))
-//    }
 }

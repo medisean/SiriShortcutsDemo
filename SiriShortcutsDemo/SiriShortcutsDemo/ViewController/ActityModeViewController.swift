@@ -29,7 +29,7 @@ class ActityModeViewController: UIViewController {
     @IBAction func addButtonPressed(_ sender: Any) {
         let activity = NSUserActivity(activityType: "com.zlm.goProject.myproject") // 1
         activity.title = "Say Hi" // 2
-        activity.userInfo = ["speech" : "hi"] // 3
+        activity.userInfo = ["speech" : "Hi, shanghai"] // 3
         activity.isEligibleForSearch = true // 4
         activity.isEligibleForPrediction = true // 5
         view.userActivity = activity // 6
