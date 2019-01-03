@@ -93,7 +93,7 @@
                                     <action selector="addButtonPressed:" destination="Nxj-cv-aqJ" eventType="touchUpInside" id="Q0w-1n-DZt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can say a word then add to siri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAw-zL-bGk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你可以说 “你好上海”" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAw-zL-bGk">
                                 <rect key="frame" x="15" y="135" width="345" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="pXB-ws-zkO"/>
@@ -136,11 +136,22 @@
                                     <action selector="addButtonPressed:" destination="zk0-Ef-Cfo" eventType="touchUpInside" id="ryX-Ok-zXH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你可以说 “你好广州”" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bs2-j6-kVL">
+                                <rect key="frame" x="107.5" y="114" width="160" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="231-5b-0Fd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Dbp-Lg-hGj" firstAttribute="top" secondItem="RoM-kC-W6t" secondAttribute="top" constant="95" id="1eh-v6-P6l"/>
                             <constraint firstItem="Dbp-Lg-hGj" firstAttribute="centerX" secondItem="hjO-Re-hnT" secondAttribute="centerX" id="BNN-wE-66c"/>
+                            <constraint firstItem="Bs2-j6-kVL" firstAttribute="top" secondItem="RoM-kC-W6t" secondAttribute="top" constant="50" id="VNc-lP-hya"/>
+                            <constraint firstItem="Bs2-j6-kVL" firstAttribute="centerX" secondItem="hjO-Re-hnT" secondAttribute="centerX" id="bUQ-IE-f4i"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RoM-kC-W6t"/>
                     </view>
