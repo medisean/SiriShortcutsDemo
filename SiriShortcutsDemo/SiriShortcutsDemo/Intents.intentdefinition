@@ -16,9 +16,9 @@
 	<array>
 		<dict>
 			<key>INIntentCategory</key>
-			<string>generic</string>
+			<string>information</string>
 			<key>INIntentDescription</key>
-			<string>我的项目</string>
+			<string>第一种类型</string>
 			<key>INIntentDescriptionID</key>
 			<string>j4w82J</string>
 			<key>INIntentLastParameterTag</key>
@@ -78,7 +78,7 @@
 			<key>INIntentRestrictions</key>
 			<integer>0</integer>
 			<key>INIntentTitle</key>
-			<string>我的项目</string>
+			<string>Activity Demo</string>
 			<key>INIntentTitleID</key>
 			<string>mznQ2u</string>
 			<key>INIntentType</key>
@@ -86,13 +86,13 @@
 			<key>INIntentUserConfirmationRequired</key>
 			<false/>
 			<key>INIntentVerb</key>
-			<string>Go</string>
+			<string>View</string>
 		</dict>
 		<dict>
 			<key>INIntentCategory</key>
-			<string>generic</string>
+			<string>information</string>
 			<key>INIntentDescription</key>
-			<string>Hello</string>
+			<string>自定义类型</string>
 			<key>INIntentDescriptionID</key>
 			<string>TJSAHy</string>
 			<key>INIntentLastParameterTag</key>
@@ -106,13 +106,13 @@
 					<key>INIntentParameterCombinationIsPrimary</key>
 					<true/>
 					<key>INIntentParameterCombinationSubtitle</key>
-					<string>nihao</string>
+					<string></string>
 					<key>INIntentParameterCombinationSubtitleID</key>
 					<string>GUobYZ</string>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>Hello</string>
+					<string></string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>zm5LZW</string>
 				</dict>
@@ -152,7 +152,7 @@
 			<key>INIntentRestrictions</key>
 			<integer>0</integer>
 			<key>INIntentTitle</key>
-			<string>Hello</string>
+			<string>Intent Demo</string>
 			<key>INIntentTitleID</key>
 			<string>qBIKeZ</string>
 			<key>INIntentType</key>
@@ -160,7 +160,7 @@
 			<key>INIntentUserConfirmationRequired</key>
 			<false/>
 			<key>INIntentVerb</key>
-			<string>Do</string>
+			<string>View</string>
 		</dict>
 	</array>
 </dict>

@@ -42,9 +42,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
-        if let userInfo = userActivity.userInfo, let speech = userInfo["speech"] as? String {
+        
+        if userActivity.activityType == NSStringFromClass(IntentDemoIntent.self) {
             let action = UIAlertAction(title: "OK", style: .default, handler: nil)
-            let alertController = UIAlertController(title: speech, message: nil, preferredStyle: .alert)
+            let alertController = UIAlertController(title: "This is intent demo", message: nil, preferredStyle: .alert)
+            alertController.addAction(action)
+            self.window?.rootViewController?.present(alertController, animated: true, completion: nil)
+        } else if let userInfo = userActivity.userInfo, (userInfo["speech"] as? String) != nil {
+            let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+            let alertController = UIAlertController(title: "This is user activity demo", message: nil, preferredStyle: .alert)
             alertController.addAction(action)
             self.window?.rootViewController?.present(alertController, animated: true, completion: nil)
         }
