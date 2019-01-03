@@ -42,8 +42,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
-        print(userActivity.userInfo)
-        
+        if let userInfo = userActivity.userInfo, let speech = userInfo["speech"] as? String {
+            let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+            let alertController = UIAlertController(title: speech, message: nil, preferredStyle: .alert)
+            alertController.addAction(action)
+            self.window?.rootViewController?.present(alertController, animated: true, completion: nil)
+        }
         return true
     }
 
